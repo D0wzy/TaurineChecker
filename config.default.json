@@ -3,5 +3,11 @@
   "ProxyType": "socks4",
   "AutoUpdate": true,
   "ComboPath":  "./combo.txt",
-  "Cooldown": 5000
+  "ProxyPath":  "./proxies.txt",
+  "Cooldown": 5000,
+  "Options": {
+    "CheckMFA": true,
+    "RetryBad": true,
+    "RetryBadNum": 3
+  }
 }
